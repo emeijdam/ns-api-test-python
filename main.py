@@ -4,7 +4,7 @@ from pprint import pprint
 import pandas as pd
 
 api_url = "https://gateway.apiportal.ns.nl/nsapp-stations/v2"
-headers =  {"Cache-Control": "no-cache","Ocp-Apim-Subscription-Key": "30db5fa047c3450ca3e131452dfdc81e"}
+headers =  {"Cache-Control": "no-cache","Ocp-Apim-Subscription-Key": ""}
 #todo = {"userId": 1, "title": "Buy milk", "completed": False}
 #response = requests.get(api_url)
 response = requests.get(api_url, headers=headers)
